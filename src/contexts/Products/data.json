@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "_id": "product1234",
+      "sizes": ["M", "L", "XL"],
+      "images": [
+        "https://rukminim1.flixcart.com/image/660/792/kjhgzgw0-0/jacket/w/5/h/l-12288666-roadster-original-imafzfnn8qchjs2s.jpeg?q=50"
+      ],
+      "brand": "Roadster",
+      "name": "Full Sleeve Washed Men Jacket",
+      "currency": {
+        "code": "INR",
+        "symbol": "₹"
+      },
+      "price": {
+        "amount": 1999,
+        "discount": 60,
+        "currency": {
+          "code": "INR",
+          "symbol": "₹"
+        }
+      },
+      "ideal": ["Men"]
+    },
+    {
+      "_id": "product2345",
+      "sizes": ["M", "L", "XL"],
+      "images": [
+        "https://rukminim1.flixcart.com/image/660/792/k2z1t3k0/jacket/j/g/h/xxl-9587533-roadster-original-imafm79gbz2fbbut.jpeg?q=50"
+      ],
+      "brand": "Roadster",
+      "name": "Full Sleeve Color Block Men Puffer Jacket",
+      "currency": {
+        "code": "INR",
+        "symbol": "₹"
+      },
+      "price": {
+        "amount": 3499,
+        "discount": 69,
+        "currency": {
+          "code": "INR",
+          "symbol": "₹"
+        }
+      },
+      "ideal": ["Men"]
+    },
+    {
+      "_id": "product3456",
+      "sizes": ["M", "L", "XL"],
+      "images": [
+        "https://rukminim1.flixcart.com/image/660/792/ksru0sw0/jacket/t/h/l/m-1-no-maw21jkt002b-metronaut-original-imag69pbtyk4nncd.jpeg?q=50"
+      ],
+      "brand": "Roadster",
+      "name": "Full Sleeve Solid Men Casual Jacket",
+      "currency": {
+        "code": "INR",
+        "symbol": "₹"
+      },
+      "price": {
+        "amount": 2999,
+        "discount": 65,
+        "currency": {
+          "code": "INR",
+          "symbol": "₹"
+        }
+      },
+      "ideal": ["Men"]
+    }
+  ]
+}

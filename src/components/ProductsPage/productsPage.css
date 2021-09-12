@@ -1,0 +1,10 @@
+.page-products {
+  margin-top: calc(0.5rem + var(--height-header));
+  padding: 0 0.5rem;
+}
+
+.list-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
