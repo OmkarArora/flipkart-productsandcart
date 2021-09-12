@@ -25,6 +25,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.page {
+  margin-top: calc(0.5rem + var(--height-header));
+  padding: 0 0.5rem;
+}
+
 .line-through {
   text-decoration: line-through;
 }

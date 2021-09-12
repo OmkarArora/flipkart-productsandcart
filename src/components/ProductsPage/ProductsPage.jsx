@@ -1,5 +1,4 @@
 import { useProducts } from "../../contexts";
-// import { ProductCard, FilterMenu, getDiscountedPrice } from ".."
 import { ProductCard } from "../ProductCard/ProductCard";
 import "./productsPage.css";
 
@@ -7,7 +6,7 @@ export const ProductsPage = () => {
   const { products } = useProducts();
 
   return (
-    <div className="page-products">
+    <div className="page page-products">
       <main className="container-listing">
         <div className="list-products">
           {products &&
