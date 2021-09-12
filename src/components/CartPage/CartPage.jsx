@@ -41,9 +41,13 @@ export const CartPage = () => {
       </div>
       <div className="saved-for-later">
         <h2>Saved For Later</h2>
-        {savedForLater &&
-          savedForLater.length > 0 &&
-          savedForLater.map((item) => <div>{item.product.name}</div>)}
+        {savedForLater && savedForLater.length > 0 ? (
+          savedForLater.map((item) => (
+            <div key={item.product._id}>{item.product.name}</div>
+          ))
+        ) : (
+          <div>No saved products</div>
+        )}
       </div>
     </div>
   );

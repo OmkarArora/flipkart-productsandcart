@@ -8,10 +8,6 @@
       ],
       "brand": "Roadster",
       "name": "Full Sleeve Washed Men Jacket",
-      "currency": {
-        "code": "INR",
-        "symbol": "₹"
-      },
       "price": {
         "amount": 1999,
         "discount": 60,
@@ -30,10 +26,6 @@
       ],
       "brand": "Roadster",
       "name": "Full Sleeve Color Block Men Puffer Jacket",
-      "currency": {
-        "code": "INR",
-        "symbol": "₹"
-      },
       "price": {
         "amount": 3499,
         "discount": 69,
@@ -52,13 +44,63 @@
       ],
       "brand": "Roadster",
       "name": "Full Sleeve Solid Men Casual Jacket",
-      "currency": {
-        "code": "INR",
-        "symbol": "₹"
-      },
       "price": {
         "amount": 2999,
         "discount": 65,
+        "currency": {
+          "code": "INR",
+          "symbol": "₹"
+        }
+      },
+      "ideal": ["Men"]
+    },
+    {
+      "_id": "product4567",
+      "sizes": ["XL"],
+      "images": [
+        "https://rukminim1.flixcart.com/image/580/696/kdt50nk0/jacket/2/n/k/m-59799101-puma-original-imafumrq5fgypb6r.jpeg?q=50"
+      ],
+      "brand": "PUMA",
+      "name": "Full Sleeve Colorblock Men Casual Jacket",
+      "price": {
+        "amount": 6999,
+        "discount": 40,
+        "currency": {
+          "code": "INR",
+          "symbol": "₹"
+        }
+      },
+      "ideal": ["Men"]
+    },
+    {
+      "_id": "product5678",
+      "sizes": ["L", "XL"],
+      "images": [
+        "https://rukminim1.flixcart.com/image/580/696/km2clu80/jacket/c/f/0/s-mnt-7003-montrez-original-imagffv4hs3k6quc.jpeg?q=50"
+      ],
+      "brand": "MONTREZ",
+      "name": "Full Sleeve Colorblock Men Casual Jacket",
+      "price": {
+        "amount": 2499,
+        "discount": 64,
+        "currency": {
+          "code": "INR",
+          "symbol": "₹"
+        }
+      },
+      "ideal": ["Men"]
+    },
+    {
+      "_id": "product6789",
+      "sizes": ["L", "XL"],
+      "images": [
+        "https://rukminim1.flixcart.com/image/580/696/kgpg5u80/jacket/k/f/r/xl-fc6035-fastcolors-original-imafwvhayjrstb24.jpeg?q=50"
+      ],
+      "brand": "FastColors",
+      "name": "Full Sleeve Printed Men Casual Jacket",
+      "price": {
+        "amount": 1999,
+        "discount": 68,
         "currency": {
           "code": "INR",
           "symbol": "₹"

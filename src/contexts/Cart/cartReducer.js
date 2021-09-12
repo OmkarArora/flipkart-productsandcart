@@ -1,9 +1,22 @@
 export const cartReducer = (state, action) => {
   let cart = null;
   let savedForLater = null;
+  let item = null;
   switch (action.type) {
     case "ADD_TO_CART":
-      return { ...state, cart: [...state.cart, action.payload.item] };
+      item = action.payload.item;
+      if (state.savedForLater === undefined) savedForLater = [];
+      else {
+        savedForLater = state.savedForLater.filter(
+          (savedItem) => savedItem.product._id !== item.product._id
+        );
+      }
+
+      return {
+        ...state,
+        cart: [...state.cart, item],
+        savedForLater,
+      };
     case "REMOVE_FROM_CART":
       cart = state.cart.filter(
         (item) => item.product._id !== action.payload.productId
