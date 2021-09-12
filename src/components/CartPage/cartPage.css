@@ -1,0 +1,15 @@
+.page-cart {
+  --width-cartTotals: 500px;
+}
+.container-cartTotals {
+  width: var(--width-cartTotals);
+  position: fixed;
+  right: 1rem;
+  top: calc(var(--height-header) + 1rem);
+  border: 1px solid black;
+}
+
+.container-cartProducts {
+  margin-right: calc(var(--width-cartTotals) + 1rem);
+  border: 1px solid black;
+}

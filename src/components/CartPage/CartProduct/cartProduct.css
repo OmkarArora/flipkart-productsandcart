@@ -1,0 +1,19 @@
+.cart-product {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.5rem; */
+}
+
+.cart-product .details {
+  display: flex;
+  gap: 1rem;
+}
+
+.cart-product .brand-name {
+  margin-right: 0.3rem;
+}
+
+.cart-product img {
+  width: 100px;
+  height: auto;
+}
